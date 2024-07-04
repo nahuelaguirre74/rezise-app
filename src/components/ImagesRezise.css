@@ -1,13 +1,13 @@
-.slider-container{
-    width: 80%;
-    margin: auto;
-    padding: 40px;
-
+.slider-container {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
 }
 
-
-
-h3 {
-    font-size: larger;
-    color: black;
+.card {
+  border: solid black;
+  display: flex;
+  align-items: center;
 }
